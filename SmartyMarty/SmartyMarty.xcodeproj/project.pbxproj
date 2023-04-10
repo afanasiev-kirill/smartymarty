@@ -15,11 +15,16 @@
 		ACEBB73029C3B2A9009D67BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEBB72E29C3B2A9009D67BD /* Main.storyboard */; };
 		ACEBB73229C3B2AA009D67BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEBB73129C3B2AA009D67BD /* Assets.xcassets */; };
 		ACEBB73529C3B2AA009D67BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEBB73329C3B2AA009D67BD /* LaunchScreen.storyboard */; };
+		B353AB1029E265140069982A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB0F29E265140069982A /* WebViewController.swift */; };
 		B37F298029E1C2B2005A4D34 /* Kids_App_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */; };
 		B37F298129E1C2B2005A4D34 /* Kids_App_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */; };
 		B37F298229E1C2B2005A4D34 /* Kids_App_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297D29E1C2B2005A4D34 /* Kids_App_3.png */; };
 		B37F298329E1C2B2005A4D34 /* Kids_App_4.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297E29E1C2B2005A4D34 /* Kids_App_4.png */; };
 		B37F298429E1C2B2005A4D34 /* Kids_App-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297F29E1C2B2005A4D34 /* Kids_App-01.png */; };
+		B37F298629E230B0005A4D34 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F298529E230B0005A4D34 /* SettingViewController.swift */; };
+		B37F298829E230D4005A4D34 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F298729E230D4005A4D34 /* AboutUsViewController.swift */; };
+		B37F298A29E23106005A4D34 /* SoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37F298929E23106005A4D34 /* SoundsViewController.swift */; };
+		B37F298C29E24A72005A4D34 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F298B29E24A72005A4D34 /* facebook.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,11 +38,16 @@
 		ACEBB73129C3B2AA009D67BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEBB73429C3B2AA009D67BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACEBB73629C3B2AA009D67BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B353AB0F29E265140069982A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_2.png; sourceTree = "<group>"; };
 		B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_1.png; sourceTree = "<group>"; };
 		B37F297D29E1C2B2005A4D34 /* Kids_App_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_3.png; sourceTree = "<group>"; };
 		B37F297E29E1C2B2005A4D34 /* Kids_App_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_4.png; sourceTree = "<group>"; };
 		B37F297F29E1C2B2005A4D34 /* Kids_App-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kids_App-01.png"; sourceTree = "<group>"; };
+		B37F298529E230B0005A4D34 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B37F298729E230D4005A4D34 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		B37F298929E23106005A4D34 /* SoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewController.swift; sourceTree = "<group>"; };
+		B37F298B29E24A72005A4D34 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 			children = (
 				ACEBB72C29C3B2A9009D67BD /* ViewController.swift */,
 				AC766DED29C4E09500383D0E /* QuizViewController.swift */,
+				B37F298529E230B0005A4D34 /* SettingViewController.swift */,
+				B37F298729E230D4005A4D34 /* AboutUsViewController.swift */,
+				B37F298929E23106005A4D34 /* SoundsViewController.swift */,
+				B353AB0F29E265140069982A /* WebViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -72,6 +86,7 @@
 		AC766DEA29C4E02500383D0E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ACEBB72A29C3B2A9009D67BD /* SceneDelegate.swift */,
 				ACEBB72829C3B2A9009D67BD /* AppDelegate.swift */,
 				AC766DEB29C4E08100383D0E /* QuizModel.swift */,
 			);
@@ -99,7 +114,6 @@
 			children = (
 				B37F297A29E1C27A005A4D34 /* Images */,
 				AC766DEA29C4E02500383D0E /* Models */,
-				ACEBB72A29C3B2A9009D67BD /* SceneDelegate.swift */,
 				AC766DE829C4E00000383D0E /* ViewControllers */,
 				AC766DE929C4E01000383D0E /* Views */,
 				ACEBB73629C3B2AA009D67BD /* Info.plist */,
@@ -110,6 +124,7 @@
 		B37F297A29E1C27A005A4D34 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B37F298B29E24A72005A4D34 /* facebook.png */,
 				B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */,
 				B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */,
 				B37F297D29E1C2B2005A4D34 /* Kids_App_3.png */,
@@ -182,6 +197,7 @@
 				B37F298029E1C2B2005A4D34 /* Kids_App_2.png in Resources */,
 				B37F298129E1C2B2005A4D34 /* Kids_App_1.png in Resources */,
 				B37F298429E1C2B2005A4D34 /* Kids_App-01.png in Resources */,
+				B37F298C29E24A72005A4D34 /* facebook.png in Resources */,
 				B37F298329E1C2B2005A4D34 /* Kids_App_4.png in Resources */,
 				ACEBB73229C3B2AA009D67BD /* Assets.xcassets in Resources */,
 				B37F298229E1C2B2005A4D34 /* Kids_App_3.png in Resources */,
@@ -196,11 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37F298A29E23106005A4D34 /* SoundsViewController.swift in Sources */,
+				B353AB1029E265140069982A /* WebViewController.swift in Sources */,
 				AC766DEC29C4E08100383D0E /* QuizModel.swift in Sources */,
 				AC766DEE29C4E09500383D0E /* QuizViewController.swift in Sources */,
 				ACEBB72D29C3B2A9009D67BD /* ViewController.swift in Sources */,
 				ACEBB72929C3B2A9009D67BD /* AppDelegate.swift in Sources */,
+				B37F298829E230D4005A4D34 /* AboutUsViewController.swift in Sources */,
 				ACEBB72B29C3B2A9009D67BD /* SceneDelegate.swift in Sources */,
+				B37F298629E230B0005A4D34 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
