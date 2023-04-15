@@ -16,6 +16,10 @@
 		ACEBB73229C3B2AA009D67BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEBB73129C3B2AA009D67BD /* Assets.xcassets */; };
 		ACEBB73529C3B2AA009D67BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEBB73329C3B2AA009D67BD /* LaunchScreen.storyboard */; };
 		B353AB1029E265140069982A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB0F29E265140069982A /* WebViewController.swift */; };
+		B353AB1229E434230069982A /* Alphabet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B353AB1129E434230069982A /* Alphabet.jpeg */; };
+		B353AB1429E4351A0069982A /* AlphabetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB1329E4351A0069982A /* AlphabetController.swift */; };
+		B353AB1629E4371B0069982A /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB1529E4371B0069982A /* SiteCell.swift */; };
+		B353AB1A29E43C230069982A /* Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB1929E43C230069982A /* Alphabet.swift */; };
 		B37F298029E1C2B2005A4D34 /* Kids_App_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */; };
 		B37F298129E1C2B2005A4D34 /* Kids_App_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */; };
 		B37F298229E1C2B2005A4D34 /* Kids_App_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297D29E1C2B2005A4D34 /* Kids_App_3.png */; };
@@ -39,6 +43,10 @@
 		ACEBB73429C3B2AA009D67BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACEBB73629C3B2AA009D67BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B353AB0F29E265140069982A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B353AB1129E434230069982A /* Alphabet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alphabet.jpeg; sourceTree = "<group>"; };
+		B353AB1329E4351A0069982A /* AlphabetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetController.swift; sourceTree = "<group>"; };
+		B353AB1529E4371B0069982A /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		B353AB1929E43C230069982A /* Alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabet.swift; sourceTree = "<group>"; };
 		B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_2.png; sourceTree = "<group>"; };
 		B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_1.png; sourceTree = "<group>"; };
 		B37F297D29E1C2B2005A4D34 /* Kids_App_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_3.png; sourceTree = "<group>"; };
@@ -70,6 +78,7 @@
 				B37F298729E230D4005A4D34 /* AboutUsViewController.swift */,
 				B37F298929E23106005A4D34 /* SoundsViewController.swift */,
 				B353AB0F29E265140069982A /* WebViewController.swift */,
+				B353AB1329E4351A0069982A /* AlphabetController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -89,6 +98,8 @@
 				ACEBB72A29C3B2A9009D67BD /* SceneDelegate.swift */,
 				ACEBB72829C3B2A9009D67BD /* AppDelegate.swift */,
 				AC766DEB29C4E08100383D0E /* QuizModel.swift */,
+				B353AB1529E4371B0069982A /* SiteCell.swift */,
+				B353AB1929E43C230069982A /* Alphabet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -124,6 +135,7 @@
 		B37F297A29E1C27A005A4D34 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B353AB1129E434230069982A /* Alphabet.jpeg */,
 				B37F298B29E24A72005A4D34 /* facebook.png */,
 				B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */,
 				B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */,
@@ -197,6 +209,7 @@
 				B37F298029E1C2B2005A4D34 /* Kids_App_2.png in Resources */,
 				B37F298129E1C2B2005A4D34 /* Kids_App_1.png in Resources */,
 				B37F298429E1C2B2005A4D34 /* Kids_App-01.png in Resources */,
+				B353AB1229E434230069982A /* Alphabet.jpeg in Resources */,
 				B37F298C29E24A72005A4D34 /* facebook.png in Resources */,
 				B37F298329E1C2B2005A4D34 /* Kids_App_4.png in Resources */,
 				ACEBB73229C3B2AA009D67BD /* Assets.xcassets in Resources */,
@@ -213,13 +226,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37F298A29E23106005A4D34 /* SoundsViewController.swift in Sources */,
+				B353AB1629E4371B0069982A /* SiteCell.swift in Sources */,
 				B353AB1029E265140069982A /* WebViewController.swift in Sources */,
 				AC766DEC29C4E08100383D0E /* QuizModel.swift in Sources */,
 				AC766DEE29C4E09500383D0E /* QuizViewController.swift in Sources */,
 				ACEBB72D29C3B2A9009D67BD /* ViewController.swift in Sources */,
 				ACEBB72929C3B2A9009D67BD /* AppDelegate.swift in Sources */,
+				B353AB1A29E43C230069982A /* Alphabet.swift in Sources */,
 				B37F298829E230D4005A4D34 /* AboutUsViewController.swift in Sources */,
 				ACEBB72B29C3B2A9009D67BD /* SceneDelegate.swift in Sources */,
+				B353AB1429E4351A0069982A /* AlphabetController.swift in Sources */,
 				B37F298629E230B0005A4D34 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
