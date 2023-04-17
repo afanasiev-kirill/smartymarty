@@ -113,10 +113,16 @@ class AlphabetController: UIViewController,UITableViewDataSource, UITableViewDel
         // step 13b - in AppDelegate define a string called selectedURL
         let rowNum = indexPath.row
         let a = al[rowNum].alph!
-    
+        
+        
+        
+        SoundManager.shared.playSound(forResource: a, ofType: "mp3")
+        
         let alertController = UIAlertController(title: "Playing sound for ", message: a, preferredStyle: .alert)
         
         let cancelAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+        
+        //SoundManager.shared.playSound(forResource: a, ofType: "mp3")
         
         alertController.addAction(cancelAction)
         present(alertController, animated: true)

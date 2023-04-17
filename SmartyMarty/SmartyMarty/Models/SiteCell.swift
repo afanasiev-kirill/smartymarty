@@ -18,7 +18,7 @@ class SiteCell: UITableViewCell {
         primaryLabel.textAlignment = NSTextAlignment.left
         primaryLabel.font = UIFont.boldSystemFont(ofSize: 60)
         primaryLabel.backgroundColor = UIColor.clear
-        primaryLabel.textColor = UIColor.secondaryLabel
+        primaryLabel.textColor = UIColor.cyan
         
         
         super.init(style: style, reuseIdentifier: reuseIdentifier)
