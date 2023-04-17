@@ -79,38 +79,38 @@ class AlphabetController: UIViewController,UITableViewDataSource, UITableViewDel
         return al.count
     }
 
-    // step 9 - define table method for cell thickness
+    // define table method for cell thickness
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100;
     }
 
-    // step 10 - define table method for how each cell should look
+    // define table method for how each cell should look
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         tableView.backgroundColor = UIColor(patternImage: UIImage(named: "Kids_App-01.png")!)
         
         let tableCell : SiteCell = tableView.dequeueReusableCell(withIdentifier: "cell") as? SiteCell ?? SiteCell(style:UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
 
-        // step 12b - populate the cell
+        //populate the cell
         let rowNum = indexPath.row
         let alph = "\(al[rowNum].alph ?? "")"
        // let imgName = UIImage(named:imageData[rowNum])
 
         tableCell.primaryLabel.text =  alph
 
-        tableCell.myImageView.image = UIImage(named: "Alphabet.jpeg")
+        tableCell.myImageView.image = UIImage(named: alph + ".png")
         tableCell.accessoryType = .disclosureIndicator
 
-        // step 12c - return the cell
+        //return the cell
         return tableCell
 
     }
 
 
-    // step 13 - define the table method for clicking on a cell
+    // define the table method for clicking on a cell
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
-        // step 13b - in AppDelegate define a string called selectedURL
+        // in AppDelegate define a string called selectedURL
         let rowNum = indexPath.row
         let a = al[rowNum].alph!
         

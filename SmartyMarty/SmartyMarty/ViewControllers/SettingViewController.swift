@@ -9,13 +9,27 @@ import UIKit
 
 class SettingViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBOutlet var slVolume : UISlider!
+    @IBOutlet var lbVolume : UILabel!
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    
+    @IBAction func sliderValueChanged(sender : UISlider){
+        
+        updateVolume()
     }
     
-
+    func updateVolume(){
+        let Volume = slVolume.value
+        let strVolume = String(format: " %.0f",Volume)
+        lbVolume.text = strVolume
+        appDelegate.volume = Int(slVolume.value)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        updateVolume()
+        // Do any additional setup after loading the view.
+    }
     /*
     // MARK: - Navigation
 
