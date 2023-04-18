@@ -1,46 +1,47 @@
 //
-//  VegetableViewController.swift
+//  ColorViewController.swift
 //  SmartyMarty
 //
-//  Created by Ziang Wang on 2023-04-17.
+//  Created by Yukun Chen on 2023-04-17.
 //
 
 import UIKit
 
-class VegetableViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
-
-    let artichoke : Vegetable = .init()
-    let carrot : Vegetable = .init()
-    let eggplant : Vegetable = .init()
-    let greenbeans : Vegetable = .init()
-    let lettuce : Vegetable = .init()
-    let pepper : Vegetable = .init()
-    let spinach : Vegetable = .init()
-   
-   
+class ColorViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
     
-    var al:[Vegetable] = []
-
-    func getVege(){
-        artichoke.initWithData(vege: "Artichoke")
-        carrot.initWithData(vege: "Carrot")
-        eggplant.initWithData(vege: "Eggplant")
-        greenbeans.initWithData(vege: "Greenbeans")
-        lettuce.initWithData(vege: "Lettuce")
-        pepper.initWithData(vege: "Pepper")
-        spinach.initWithData(vege: "Spinach")
+    let black : Color = .init()
+    let brown : Color = .init()
+    let green : Color = .init()
+    let pink : Color = .init()
+    let purple : Color = .init()
+    let red : Color = .init()
+    let white : Color = .init()
+    let yellow : Color = .init()
+    
+    var colorset:[Color] = []
+    
+    func getColor(){
+        black.initWithData(color: "Black")
+        brown.initWithData(color: "Brown")
+        green.initWithData(color: "Green")
+        pink.initWithData(color: "Pink")
+        purple.initWithData(color: "Purple")
+        red.initWithData(color: "Red")
+        white.initWithData(color: "White")
+        yellow.initWithData(color: "Yellow")
         
-        al =  [artichoke,carrot,eggplant,greenbeans,lettuce,pepper,spinach]
+        colorset =  [black,brown,green,pink,purple,red,white, yellow]
     }
+    
     override func viewDidLoad() {
-        getVege()
+        getColor()
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return al.count
+        return colorset.count
     }
 
     // define table method for cell thickness
@@ -55,17 +56,17 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
         
         let tableCell : SiteCell = tableView.dequeueReusableCell(withIdentifier: "cell") as? SiteCell ?? SiteCell(style:UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
 
-        // populate the cell
+        //populate the cell
         let rowNum = indexPath.row
-        let vege = "\(al[rowNum].vege ?? "")"
+        let alph = "\(colorset[rowNum].color ?? "")"
        // let imgName = UIImage(named:imageData[rowNum])
 
-        tableCell.primaryLabel.text =  vege
+        tableCell.primaryLabel.text =  alph
 
-        tableCell.myImageView.image = UIImage(named: vege + ".png")
+        tableCell.myImageView.image = UIImage(named: alph + ".png")
         tableCell.accessoryType = .disclosureIndicator
 
-        // return the cell
+        //return the cell
         return tableCell
 
     }
@@ -76,7 +77,7 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
 
         // in AppDelegate define a string called selectedURL
         let rowNum = indexPath.row
-        let a = al[rowNum].vege!
+        let a = colorset[rowNum].color!
         
         
         
@@ -91,6 +92,7 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
         alertController.addAction(cancelAction)
         present(alertController, animated: true)
     }
+
     
 
     /*

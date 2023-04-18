@@ -2,7 +2,7 @@
 //  AlphabetController.swift
 //  SmartyMarty
 //
-//  Created by Leo on 2023-04-10.
+//  Created by Ziang Wang on 2023-04-10.
 //
 
 import UIKit

@@ -1,46 +1,45 @@
 //
-//  VegetableViewController.swift
+//  ShapesViewController.swift
 //  SmartyMarty
 //
-//  Created by Ziang Wang on 2023-04-17.
+//  Created by Yukun Chen on 2023-04-17.
 //
 
 import UIKit
 
-class VegetableViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
+class ShapesViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
 
-    let artichoke : Vegetable = .init()
-    let carrot : Vegetable = .init()
-    let eggplant : Vegetable = .init()
-    let greenbeans : Vegetable = .init()
-    let lettuce : Vegetable = .init()
-    let pepper : Vegetable = .init()
-    let spinach : Vegetable = .init()
-   
-   
+    let square : Shape = .init()
+    let rectangle : Shape = .init()
+    let diamond : Shape = .init()
+    let triangle : Shape = .init()
+    let circle : Shape = .init()
+    let star : Shape = .init()
+    let oval : Shape = .init()
     
-    var al:[Vegetable] = []
-
-    func getVege(){
-        artichoke.initWithData(vege: "Artichoke")
-        carrot.initWithData(vege: "Carrot")
-        eggplant.initWithData(vege: "Eggplant")
-        greenbeans.initWithData(vege: "Greenbeans")
-        lettuce.initWithData(vege: "Lettuce")
-        pepper.initWithData(vege: "Pepper")
-        spinach.initWithData(vege: "Spinach")
+    var shapeset:[Shape] = []
+    
+    func getShape(){
+        square.initWithData(shape: "Square")
+        rectangle.initWithData(shape: "Rectangle")
+        diamond.initWithData(shape: "Diamond")
+        triangle.initWithData(shape: "Triangle")
+        circle.initWithData(shape: "Circle")
+        star.initWithData(shape: "Star")
+        oval.initWithData(shape: "Oval")
         
-        al =  [artichoke,carrot,eggplant,greenbeans,lettuce,pepper,spinach]
+        shapeset =  [square,rectangle,diamond,triangle,circle,star,oval]
     }
+    
     override func viewDidLoad() {
-        getVege()
+        getShape()
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return al.count
+        return shapeset.count
     }
 
     // define table method for cell thickness
@@ -55,17 +54,17 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
         
         let tableCell : SiteCell = tableView.dequeueReusableCell(withIdentifier: "cell") as? SiteCell ?? SiteCell(style:UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
 
-        // populate the cell
+        //populate the cell
         let rowNum = indexPath.row
-        let vege = "\(al[rowNum].vege ?? "")"
+        let alph = "\(shapeset[rowNum].shape ?? "")"
        // let imgName = UIImage(named:imageData[rowNum])
 
-        tableCell.primaryLabel.text =  vege
+        tableCell.primaryLabel.text =  alph
 
-        tableCell.myImageView.image = UIImage(named: vege + ".png")
+        tableCell.myImageView.image = UIImage(named: alph + ".png")
         tableCell.accessoryType = .disclosureIndicator
 
-        // return the cell
+        //return the cell
         return tableCell
 
     }
@@ -76,7 +75,7 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
 
         // in AppDelegate define a string called selectedURL
         let rowNum = indexPath.row
-        let a = al[rowNum].vege!
+        let a = shapeset[rowNum].shape!
         
         
         

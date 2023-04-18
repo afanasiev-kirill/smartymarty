@@ -48,6 +48,86 @@
             </objects>
             <point key="canvasLocation" x="-662" y="-1335"/>
         </scene>
+        <!--Color View Controller-->
+        <scene sceneID="uU6-hj-ni6">
+            <objects>
+                <viewController id="5pZ-bI-MOq" customClass="ColorViewController" customModule="SmartyMarty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CPO-1V-Uef">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="740"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mx2-GA-AD1">
+                                <rect key="frame" x="0.0" y="44" width="704" height="696"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5pZ-bI-MOq" id="q9K-8K-AYd"/>
+                                    <outlet property="delegate" destination="5pZ-bI-MOq" id="37G-x8-hik"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yN0-qu-7Cp">
+                                <rect key="frame" x="0.0" y="0.0" width="704" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Color" id="3Da-gv-VL5">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="7d9-hQ-dcM">
+                                            <connections>
+                                                <segue destination="48N-TP-ymS" kind="unwind" unwindAction="unwindToSoundsViewControllerWithSender:" id="6mN-jD-s0R"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Vh-Wl-Z0M"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryl-q5-iou" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="48N-TP-ymS" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="-1335"/>
+        </scene>
+        <!--Shapes View Controller-->
+        <scene sceneID="DuC-au-dfW">
+            <objects>
+                <viewController id="Ed8-XX-KOG" customClass="ShapesViewController" customModule="SmartyMarty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="21B-9j-eNR">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="740"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Q2c-nl-tcc">
+                                <rect key="frame" x="0.0" y="44" width="704" height="696"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="sectionIndexColor" systemColor="systemGroupedBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ed8-XX-KOG" id="ZqW-jn-TTr"/>
+                                    <outlet property="delegate" destination="Ed8-XX-KOG" id="6Ol-ry-R0E"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kqq-nd-C3a">
+                                <rect key="frame" x="0.0" y="0.0" width="704" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Shape" id="7wk-kq-9cv">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="mjX-xa-Jwi">
+                                            <connections>
+                                                <segue destination="STa-B4-fBd" kind="unwind" unwindAction="unwindToSoundsViewControllerWithSender:" id="Fns-Zo-fdL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FIy-16-W7L"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDg-zz-8Si" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="STa-B4-fBd" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="717" y="-1335"/>
+        </scene>
         <!--Sounds View Controller-->
         <scene sceneID="Xpq-DI-oba">
             <objects>
@@ -84,11 +164,33 @@
                                 <rect key="frame" x="288" y="138" width="128" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="vege.jpg"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Bv5-cl-KQq" kind="presentation" id="SLm-Sc-7Gr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xCK-T5-p36">
+                                <rect key="frame" x="499" y="138" width="128" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="colors.png"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="5pZ-bI-MOq" kind="presentation" id="15e-5j-YrN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOQ-jk-OsD">
+                                <rect key="frame" x="106" y="298" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="Shapes.png"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Ed8-XX-KOG" kind="presentation" id="M7W-T2-LRb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -446,7 +548,9 @@
         <image name="Kids_App_2.png" width="500" height="500"/>
         <image name="Kids_App_3.png" width="500" height="500"/>
         <image name="Kids_App_4.png" width="500" height="500"/>
+        <image name="Shapes.png" width="512" height="512"/>
         <image name="background2.png" width="2732" height="2048"/>
+        <image name="colors.png" width="320" height="320"/>
         <image name="facebook.png" width="162" height="164"/>
         <image name="vege.jpg" width="679" height="817"/>
         <systemColor name="systemBackgroundColor">
@@ -454,6 +558,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

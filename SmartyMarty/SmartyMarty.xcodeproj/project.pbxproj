@@ -99,6 +99,28 @@
 		B393B96B29EDEF1D00FA2588 /* Vegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B96A29EDEF1D00FA2588 /* Vegetable.swift */; };
 		B393B96D29EDF05600FA2588 /* vege.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B393B96C29EDF05600FA2588 /* vege.jpg */; };
 		B393B96F29EDF17200FA2588 /* VegetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B96E29EDF17200FA2588 /* VegetableViewController.swift */; };
+		B393B97129EDFF9900FA2588 /* ShapesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B97029EDFF9900FA2588 /* ShapesViewController.swift */; };
+		B393B97329EE034900FA2588 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B97229EE034900FA2588 /* Shape.swift */; };
+		B393B97529EE035800FA2588 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B97429EE035800FA2588 /* Color.swift */; };
+		B393B97729EE037D00FA2588 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393B97629EE037D00FA2588 /* ColorViewController.swift */; };
+		B393B97929EE041200FA2588 /* Color.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B97829EE041200FA2588 /* Color.png */; };
+		B393B97B29EE04F700FA2588 /* Shapes.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B97A29EE04F700FA2588 /* Shapes.png */; };
+		B393B99429EE125D00FA2588 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B98C29EE125B00FA2588 /* Black.png */; };
+		B393B99529EE125D00FA2588 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B98D29EE125C00FA2588 /* Red.png */; };
+		B393B99629EE125D00FA2588 /* Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B98E29EE125C00FA2588 /* Pink.png */; };
+		B393B99729EE125D00FA2588 /* White.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B98F29EE125C00FA2588 /* White.png */; };
+		B393B99829EE125D00FA2588 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B99029EE125C00FA2588 /* Yellow.png */; };
+		B393B99929EE125D00FA2588 /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B99129EE125C00FA2588 /* Brown.png */; };
+		B393B99A29EE125D00FA2588 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B99229EE125C00FA2588 /* Green.png */; };
+		B393B99B29EE125D00FA2588 /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B99329EE125D00FA2588 /* Purple.png */; };
+		B393B9B729EE47E500FA2588 /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9B029EE47E400FA2588 /* Circle.png */; };
+		B393B9B829EE47E500FA2588 /* Rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9B129EE47E400FA2588 /* Rectangle.png */; };
+		B393B9B929EE47E500FA2588 /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9B229EE47E400FA2588 /* Triangle.png */; };
+		B393B9BA29EE47E500FA2588 /* Oval.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9B329EE47E400FA2588 /* Oval.png */; };
+		B393B9BB29EE47E500FA2588 /* Diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9B429EE47E500FA2588 /* Diamond.png */; };
+		B393B9BC29EE47E500FA2588 /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9B529EE47E500FA2588 /* Star.png */; };
+		B393B9BD29EE47E500FA2588 /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9B629EE47E500FA2588 /* Square.png */; };
+		B393B9DB29EE581400FA2588 /* colors.png in Resources */ = {isa = PBXBuildFile; fileRef = B393B9DA29EE581400FA2588 /* colors.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +218,43 @@
 		B393B96A29EDEF1D00FA2588 /* Vegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegetable.swift; sourceTree = "<group>"; };
 		B393B96C29EDF05600FA2588 /* vege.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vege.jpg; sourceTree = "<group>"; };
 		B393B96E29EDF17200FA2588 /* VegetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableViewController.swift; sourceTree = "<group>"; };
+		B393B97029EDFF9900FA2588 /* ShapesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesViewController.swift; sourceTree = "<group>"; };
+		B393B97229EE034900FA2588 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		B393B97429EE035800FA2588 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B393B97629EE037D00FA2588 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		B393B97829EE041200FA2588 /* Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Color.png; sourceTree = "<group>"; };
+		B393B97A29EE04F700FA2588 /* Shapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shapes.png; sourceTree = "<group>"; };
+		B393B98C29EE125B00FA2588 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		B393B98D29EE125C00FA2588 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		B393B98E29EE125C00FA2588 /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pink.png; sourceTree = "<group>"; };
+		B393B98F29EE125C00FA2588 /* White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = White.png; sourceTree = "<group>"; };
+		B393B99029EE125C00FA2588 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		B393B99129EE125C00FA2588 /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
+		B393B99229EE125C00FA2588 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		B393B99329EE125D00FA2588 /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purple.png; sourceTree = "<group>"; };
+		B393B9B029EE47E400FA2588 /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
+		B393B9B129EE47E400FA2588 /* Rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rectangle.png; sourceTree = "<group>"; };
+		B393B9B229EE47E400FA2588 /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Triangle.png; sourceTree = "<group>"; };
+		B393B9B329EE47E400FA2588 /* Oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oval.png; sourceTree = "<group>"; };
+		B393B9B429EE47E500FA2588 /* Diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diamond.png; sourceTree = "<group>"; };
+		B393B9B529EE47E500FA2588 /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		B393B9B629EE47E500FA2588 /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square.png; sourceTree = "<group>"; };
+		B393B9DA29EE581400FA2588 /* colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors.png; sourceTree = "<group>"; };
+		B393B9FA29EE608600FA2588 /* Oval.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Oval.mp3; sourceTree = "<group>"; };
+		B393B9FB29EE608600FA2588 /* Pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pink.mp3; sourceTree = "<group>"; };
+		B393B9FC29EE608600FA2588 /* Black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Black.mp3; sourceTree = "<group>"; };
+		B393B9FD29EE608600FA2588 /* Purple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Purple.mp3; sourceTree = "<group>"; };
+		B393B9FE29EE608600FA2588 /* Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red.mp3; sourceTree = "<group>"; };
+		B393B9FF29EE608600FA2588 /* Triangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Triangle.mp3; sourceTree = "<group>"; };
+		B393BA0029EE608600FA2588 /* White.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = White.mp3; sourceTree = "<group>"; };
+		B393BA0129EE608700FA2588 /* Square.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Square.mp3; sourceTree = "<group>"; };
+		B393BA0229EE608700FA2588 /* Yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yellow.mp3; sourceTree = "<group>"; };
+		B393BA0329EE608700FA2588 /* Green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Green.mp3; sourceTree = "<group>"; };
+		B393BA0429EE608700FA2588 /* Diamond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Diamond.mp3; sourceTree = "<group>"; };
+		B393BA0529EE608700FA2588 /* Circle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Circle.mp3; sourceTree = "<group>"; };
+		B393BA0629EE608700FA2588 /* Brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Brown.mp3; sourceTree = "<group>"; };
+		B393BA0729EE608700FA2588 /* Rectangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rectangle.mp3; sourceTree = "<group>"; };
+		B393BA0829EE608700FA2588 /* Star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Star.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +279,8 @@
 				B353AB0F29E265140069982A /* WebViewController.swift */,
 				B353AB1329E4351A0069982A /* AlphabetController.swift */,
 				B393B96E29EDF17200FA2588 /* VegetableViewController.swift */,
+				B393B97029EDFF9900FA2588 /* ShapesViewController.swift */,
+				B393B97629EE037D00FA2588 /* ColorViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -243,6 +304,8 @@
 				B353AB1529E4371B0069982A /* SiteCell.swift */,
 				B353AB1929E43C230069982A /* Alphabet.swift */,
 				B393B96A29EDEF1D00FA2588 /* Vegetable.swift */,
+				B393B97229EE034900FA2588 /* Shape.swift */,
+				B393B97429EE035800FA2588 /* Color.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -279,6 +342,24 @@
 		B37F297A29E1C27A005A4D34 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B393B9DA29EE581400FA2588 /* colors.png */,
+				B393B9B029EE47E400FA2588 /* Circle.png */,
+				B393B9B429EE47E500FA2588 /* Diamond.png */,
+				B393B9B329EE47E400FA2588 /* Oval.png */,
+				B393B9B129EE47E400FA2588 /* Rectangle.png */,
+				B393B9B629EE47E500FA2588 /* Square.png */,
+				B393B9B529EE47E500FA2588 /* Star.png */,
+				B393B9B229EE47E400FA2588 /* Triangle.png */,
+				B393B98C29EE125B00FA2588 /* Black.png */,
+				B393B99129EE125C00FA2588 /* Brown.png */,
+				B393B99229EE125C00FA2588 /* Green.png */,
+				B393B98E29EE125C00FA2588 /* Pink.png */,
+				B393B99329EE125D00FA2588 /* Purple.png */,
+				B393B98D29EE125C00FA2588 /* Red.png */,
+				B393B98F29EE125C00FA2588 /* White.png */,
+				B393B99029EE125C00FA2588 /* Yellow.png */,
+				B393B97A29EE04F700FA2588 /* Shapes.png */,
+				B393B97829EE041200FA2588 /* Color.png */,
 				B393B96C29EDF05600FA2588 /* vege.jpg */,
 				B393B96129EDEF0400FA2588 /* Artichoke.png */,
 				B393B96229EDEF0400FA2588 /* Carrot.png */,
@@ -329,6 +410,21 @@
 		B393B8B429ED770500FA2588 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				B393B9FC29EE608600FA2588 /* Black.mp3 */,
+				B393BA0329EE608700FA2588 /* Green.mp3 */,
+				B393BA0629EE608700FA2588 /* Brown.mp3 */,
+				B393BA0529EE608700FA2588 /* Circle.mp3 */,
+				B393BA0429EE608700FA2588 /* Diamond.mp3 */,
+				B393B9FA29EE608600FA2588 /* Oval.mp3 */,
+				B393B9FB29EE608600FA2588 /* Pink.mp3 */,
+				B393B9FD29EE608600FA2588 /* Purple.mp3 */,
+				B393BA0729EE608700FA2588 /* Rectangle.mp3 */,
+				B393B9FE29EE608600FA2588 /* Red.mp3 */,
+				B393BA0129EE608700FA2588 /* Square.mp3 */,
+				B393BA0829EE608700FA2588 /* Star.mp3 */,
+				B393B9FF29EE608600FA2588 /* Triangle.mp3 */,
+				B393BA0029EE608600FA2588 /* White.mp3 */,
+				B393BA0229EE608700FA2588 /* Yellow.mp3 */,
 				B393B95329EDEEAC00FA2588 /* Artichoke.mp3 */,
 				B393B94E29EDEEAC00FA2588 /* Carrot.mp3 */,
 				B393B94F29EDEEAC00FA2588 /* Eggplant.mp3 */,
@@ -429,11 +525,15 @@
 				B393B93B29EDDBBA00FA2588 /* J j.png in Resources */,
 				B393B93929EDDBBA00FA2588 /* X x.png in Resources */,
 				B393B93629EDDBBA00FA2588 /* C c.png in Resources */,
+				B393B97B29EE04F700FA2588 /* Shapes.png in Resources */,
+				B393B99A29EE125D00FA2588 /* Green.png in Resources */,
 				B393B93229EDDBBA00FA2588 /* G g.png in Resources */,
 				B393B93C29EDDBBA00FA2588 /* D d.png in Resources */,
 				B393B90229ED775A00FA2588 /* L l.mp3 in Resources */,
 				ACEBB73529C3B2AA009D67BD /* LaunchScreen.storyboard in Resources */,
+				B393B99629EE125D00FA2588 /* Pink.png in Resources */,
 				B393B91729EDD8AD00FA2588 /* background2.png in Resources */,
+				B393B9BB29EE47E500FA2588 /* Diamond.png in Resources */,
 				B37F298029E1C2B2005A4D34 /* Kids_App_2.png in Resources */,
 				B37F298129E1C2B2005A4D34 /* Kids_App_1.png in Resources */,
 				B393B93529EDDBBA00FA2588 /* F f.png in Resources */,
@@ -444,13 +544,18 @@
 				B393B93E29EDDBBA00FA2588 /* Q q.png in Resources */,
 				B393B95929EDEEAC00FA2588 /* Spinach.mp3 in Resources */,
 				B393B94129EDDBBA00FA2588 /* Y y.png in Resources */,
+				B393B9B929EE47E500FA2588 /* Triangle.png in Resources */,
 				B393B90729ED775A00FA2588 /* B b.mp3 in Resources */,
+				B393B9B829EE47E500FA2588 /* Rectangle.png in Resources */,
 				B37F298429E1C2B2005A4D34 /* Kids_App-01.png in Resources */,
 				B353AB1229E434230069982A /* Alphabet.jpeg in Resources */,
 				B393B96929EDEF0400FA2588 /* Carrot.png in Resources */,
 				B393B94B29EDDBBA00FA2588 /* L l.png in Resources */,
 				B37F298C29E24A72005A4D34 /* facebook.png in Resources */,
+				B393B99B29EE125D00FA2588 /* Purple.png in Resources */,
 				B393B95A29EDEEAC00FA2588 /* Artichoke.mp3 in Resources */,
+				B393B99929EE125D00FA2588 /* Brown.png in Resources */,
+				B393B99729EE125D00FA2588 /* White.png in Resources */,
 				B393B90429ED775A00FA2588 /* F f.mp3 in Resources */,
 				B393B95529EDEEAC00FA2588 /* Carrot.mp3 in Resources */,
 				B393B90C29ED775A00FA2588 /* O o.mp3 in Resources */,
@@ -460,15 +565,18 @@
 				B393B93829EDDBBA00FA2588 /* P p.png in Resources */,
 				B393B93329EDDBBA00FA2588 /* Z z.png in Resources */,
 				B393B90D29ED775A00FA2588 /* S s.mp3 in Resources */,
+				B393B99429EE125D00FA2588 /* Black.png in Resources */,
 				B393B94A29EDDBBA00FA2588 /* T t.png in Resources */,
 				B37F298329E1C2B2005A4D34 /* Kids_App_4.png in Resources */,
 				B393B91129ED775A00FA2588 /* J j.mp3 in Resources */,
 				B393B94829EDDBBA00FA2588 /* M m.png in Resources */,
+				B393B99829EE125D00FA2588 /* Yellow.png in Resources */,
 				ACEBB73229C3B2AA009D67BD /* Assets.xcassets in Resources */,
 				B393B91229ED775A00FA2588 /* K k.mp3 in Resources */,
 				B393B93D29EDDBBA00FA2588 /* B b.png in Resources */,
 				B393B93A29EDDBBA00FA2588 /* V v.png in Resources */,
 				B393B94929EDDBBA00FA2588 /* E e.png in Resources */,
+				B393B9BA29EE47E500FA2588 /* Oval.png in Resources */,
 				B393B8FF29ED775A00FA2588 /* R r.mp3 in Resources */,
 				B37F298229E1C2B2005A4D34 /* Kids_App_3.png in Resources */,
 				B393B93429EDDBBA00FA2588 /* O o.png in Resources */,
@@ -481,14 +589,19 @@
 				B393B91329ED775A00FA2588 /* Y y.mp3 in Resources */,
 				B393B90E29ED775A00FA2588 /* C c.mp3 in Resources */,
 				B393B94329EDDBBA00FA2588 /* K k.png in Resources */,
+				B393B9BD29EE47E500FA2588 /* Square.png in Resources */,
+				B393B9BC29EE47E500FA2588 /* Star.png in Resources */,
 				B393B96D29EDF05600FA2588 /* vege.jpg in Resources */,
+				B393B99529EE125D00FA2588 /* Red.png in Resources */,
 				B393B91029ED775A00FA2588 /* V v.mp3 in Resources */,
 				B393B94529EDDBBA00FA2588 /* S s.png in Resources */,
+				B393B97929EE041200FA2588 /* Color.png in Resources */,
 				B393B91529ED775A00FA2588 /* H h.mp3 in Resources */,
 				B393B94729EDDBBA00FA2588 /* R r.png in Resources */,
 				B393B96729EDEF0400FA2588 /* Eggplant.png in Resources */,
 				B393B93729EDDBBA00FA2588 /* W w.png in Resources */,
 				B393B96329EDEF0400FA2588 /* Greenbeans.png in Resources */,
+				B393B9DB29EE581400FA2588 /* colors.png in Resources */,
 				B393B90529ED775A00FA2588 /* N n.mp3 in Resources */,
 				B393B94429EDDBBA00FA2588 /* U u.png in Resources */,
 				B393B95729EDEEAC00FA2588 /* Pepper.mp3 in Resources */,
@@ -497,6 +610,7 @@
 				B393B95B29EDEEAC00FA2588 /* Lettuce.mp3 in Resources */,
 				B393B96829EDEF0400FA2588 /* Artichoke.png in Resources */,
 				B393B95629EDEEAC00FA2588 /* Eggplant.mp3 in Resources */,
+				B393B9B729EE47E500FA2588 /* Circle.png in Resources */,
 				ACEBB73029C3B2A9009D67BD /* Main.storyboard in Resources */,
 				B393B90329ED775A00FA2588 /* M m.mp3 in Resources */,
 				B393B90F29ED775A00FA2588 /* U u.mp3 in Resources */,
@@ -513,11 +627,14 @@
 				B37F298A29E23106005A4D34 /* SoundsViewController.swift in Sources */,
 				B353AB1629E4371B0069982A /* SiteCell.swift in Sources */,
 				B353AB1029E265140069982A /* WebViewController.swift in Sources */,
+				B393B97329EE034900FA2588 /* Shape.swift in Sources */,
 				B393B96F29EDF17200FA2588 /* VegetableViewController.swift in Sources */,
 				AC766DEC29C4E08100383D0E /* QuizModel.swift in Sources */,
 				B393B7BA29ED71CB00FA2588 /* SoundManager.swift in Sources */,
 				AC766DEE29C4E09500383D0E /* QuizViewController.swift in Sources */,
 				ACEBB72D29C3B2A9009D67BD /* ViewController.swift in Sources */,
+				B393B97729EE037D00FA2588 /* ColorViewController.swift in Sources */,
+				B393B97129EDFF9900FA2588 /* ShapesViewController.swift in Sources */,
 				ACEBB72929C3B2A9009D67BD /* AppDelegate.swift in Sources */,
 				B353AB1A29E43C230069982A /* Alphabet.swift in Sources */,
 				B393B96B29EDEF1D00FA2588 /* Vegetable.swift in Sources */,
@@ -525,6 +642,7 @@
 				ACEBB72B29C3B2A9009D67BD /* SceneDelegate.swift in Sources */,
 				B353AB1429E4351A0069982A /* AlphabetController.swift in Sources */,
 				B37F298629E230B0005A4D34 /* SettingViewController.swift in Sources */,
+				B393B97529EE035800FA2588 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
