@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC25032229F01487008758A2 /* QuestionsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25032129F01487008758A2 /* QuestionsRepository.swift */; };
+		AC25032429F0149A008758A2 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25032329F0149A008758A2 /* QuestionModel.swift */; };
+		AC25032829F01A29008758A2 /* rightBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AC25032529F01A29008758A2 /* rightBtn.png */; };
+		AC25032929F01A29008758A2 /* wrongBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AC25032629F01A29008758A2 /* wrongBtn.png */; };
+		AC25032A29F01A29008758A2 /* defaultBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AC25032729F01A29008758A2 /* defaultBtn.png */; };
+		AC25032C29F05393008758A2 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25032B29F05393008758A2 /* Score.swift */; };
+		AC25032F29F05C42008758A2 /* scores.db in Resources */ = {isa = PBXBuildFile; fileRef = AC25032E29F05C42008758A2 /* scores.db */; };
+		AC25033929F06E4F008758A2 /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25033829F06E4F008758A2 /* ScoreCell.swift */; };
+		AC25033B29F076B8008758A2 /* TableScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC25033A29F076B8008758A2 /* TableScoreViewController.swift */; };
 		AC766DEC29C4E08100383D0E /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC766DEB29C4E08100383D0E /* QuizModel.swift */; };
 		AC766DEE29C4E09500383D0E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC766DED29C4E09500383D0E /* QuizViewController.swift */; };
 		ACEBB72929C3B2A9009D67BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEBB72829C3B2A9009D67BD /* AppDelegate.swift */; };
@@ -124,6 +133,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC25032129F01487008758A2 /* QuestionsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsRepository.swift; sourceTree = "<group>"; };
+		AC25032329F0149A008758A2 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		AC25032529F01A29008758A2 /* rightBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightBtn.png; sourceTree = "<group>"; };
+		AC25032629F01A29008758A2 /* wrongBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrongBtn.png; sourceTree = "<group>"; };
+		AC25032729F01A29008758A2 /* defaultBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultBtn.png; sourceTree = "<group>"; };
+		AC25032B29F05393008758A2 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		AC25032E29F05C42008758A2 /* scores.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = scores.db; sourceTree = "<group>"; };
+		AC25033829F06E4F008758A2 /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
+		AC25033A29F076B8008758A2 /* TableScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScoreViewController.swift; sourceTree = "<group>"; };
 		AC766DEB29C4E08100383D0E /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 		AC766DED29C4E09500383D0E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		ACEBB72529C3B2A9009D67BD /* SmartyMarty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartyMarty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -268,6 +286,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC25032D29F058E9008758A2 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				AC25032E29F05C42008758A2 /* scores.db */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
 		AC766DE829C4E00000383D0E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +307,7 @@
 				B393B96E29EDF17200FA2588 /* VegetableViewController.swift */,
 				B393B97029EDFF9900FA2588 /* ShapesViewController.swift */,
 				B393B97629EE037D00FA2588 /* ColorViewController.swift */,
+				AC25033A29F076B8008758A2 /* TableScoreViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -306,6 +333,10 @@
 				B393B96A29EDEF1D00FA2588 /* Vegetable.swift */,
 				B393B97229EE034900FA2588 /* Shape.swift */,
 				B393B97429EE035800FA2588 /* Color.swift */,
+				AC25032129F01487008758A2 /* QuestionsRepository.swift */,
+				AC25032329F0149A008758A2 /* QuestionModel.swift */,
+				AC25032B29F05393008758A2 /* Score.swift */,
+				AC25033829F06E4F008758A2 /* ScoreCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -329,6 +360,7 @@
 		ACEBB72729C3B2A9009D67BD /* SmartyMarty */ = {
 			isa = PBXGroup;
 			children = (
+				AC25032D29F058E9008758A2 /* db */,
 				B393B8B429ED770500FA2588 /* sounds */,
 				B37F297A29E1C27A005A4D34 /* Images */,
 				AC766DEA29C4E02500383D0E /* Models */,
@@ -342,6 +374,9 @@
 		B37F297A29E1C27A005A4D34 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AC25032729F01A29008758A2 /* defaultBtn.png */,
+				AC25032529F01A29008758A2 /* rightBtn.png */,
+				AC25032629F01A29008758A2 /* wrongBtn.png */,
 				B393B9DA29EE581400FA2588 /* colors.png */,
 				B393B9B029EE47E400FA2588 /* Circle.png */,
 				B393B9B429EE47E500FA2588 /* Diamond.png */,
@@ -523,6 +558,7 @@
 				B393B94029EDDBBA00FA2588 /* N n.png in Resources */,
 				B393B94629EDDBBA00FA2588 /* H h.png in Resources */,
 				B393B93B29EDDBBA00FA2588 /* J j.png in Resources */,
+				AC25032A29F01A29008758A2 /* defaultBtn.png in Resources */,
 				B393B93929EDDBBA00FA2588 /* X x.png in Resources */,
 				B393B93629EDDBBA00FA2588 /* C c.png in Resources */,
 				B393B97B29EE04F700FA2588 /* Shapes.png in Resources */,
@@ -559,6 +595,7 @@
 				B393B90429ED775A00FA2588 /* F f.mp3 in Resources */,
 				B393B95529EDEEAC00FA2588 /* Carrot.mp3 in Resources */,
 				B393B90C29ED775A00FA2588 /* O o.mp3 in Resources */,
+				AC25032929F01A29008758A2 /* wrongBtn.png in Resources */,
 				B393B90029ED775A00FA2588 /* X x.mp3 in Resources */,
 				B393B91429ED775A00FA2588 /* G g.mp3 in Resources */,
 				B393B8E729ED774200FA2588 /* A a.mp3 in Resources */,
@@ -572,6 +609,7 @@
 				B393B94829EDDBBA00FA2588 /* M m.png in Resources */,
 				B393B99829EE125D00FA2588 /* Yellow.png in Resources */,
 				ACEBB73229C3B2AA009D67BD /* Assets.xcassets in Resources */,
+				AC25032F29F05C42008758A2 /* scores.db in Resources */,
 				B393B91229ED775A00FA2588 /* K k.mp3 in Resources */,
 				B393B93D29EDDBBA00FA2588 /* B b.png in Resources */,
 				B393B93A29EDDBBA00FA2588 /* V v.png in Resources */,
@@ -584,6 +622,7 @@
 				B393B90629ED775A00FA2588 /* Z z.mp3 in Resources */,
 				B393B90A29ED775A00FA2588 /* Q q.mp3 in Resources */,
 				B393B96429EDEF0400FA2588 /* Spinach.png in Resources */,
+				AC25032829F01A29008758A2 /* rightBtn.png in Resources */,
 				B393B90929ED775A00FA2588 /* W w.mp3 in Resources */,
 				B393B94D29EDEE5500FA2588 /* E_e.mp3 in Resources */,
 				B393B91329ED775A00FA2588 /* Y y.mp3 in Resources */,
@@ -624,6 +663,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC25032429F0149A008758A2 /* QuestionModel.swift in Sources */,
 				B37F298A29E23106005A4D34 /* SoundsViewController.swift in Sources */,
 				B353AB1629E4371B0069982A /* SiteCell.swift in Sources */,
 				B353AB1029E265140069982A /* WebViewController.swift in Sources */,
@@ -634,14 +674,18 @@
 				AC766DEE29C4E09500383D0E /* QuizViewController.swift in Sources */,
 				ACEBB72D29C3B2A9009D67BD /* ViewController.swift in Sources */,
 				B393B97729EE037D00FA2588 /* ColorViewController.swift in Sources */,
+				AC25033B29F076B8008758A2 /* TableScoreViewController.swift in Sources */,
 				B393B97129EDFF9900FA2588 /* ShapesViewController.swift in Sources */,
 				ACEBB72929C3B2A9009D67BD /* AppDelegate.swift in Sources */,
 				B353AB1A29E43C230069982A /* Alphabet.swift in Sources */,
 				B393B96B29EDEF1D00FA2588 /* Vegetable.swift in Sources */,
 				B37F298829E230D4005A4D34 /* AboutUsViewController.swift in Sources */,
+				AC25032229F01487008758A2 /* QuestionsRepository.swift in Sources */,
 				ACEBB72B29C3B2A9009D67BD /* SceneDelegate.swift in Sources */,
 				B353AB1429E4351A0069982A /* AlphabetController.swift in Sources */,
 				B37F298629E230B0005A4D34 /* SettingViewController.swift in Sources */,
+				AC25032C29F05393008758A2 /* Score.swift in Sources */,
+				AC25033929F06E4F008758A2 /* ScoreCell.swift in Sources */,
 				B393B97529EE035800FA2588 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -795,8 +839,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -824,8 +868,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
