@@ -1,7 +1,7 @@
 //
 //  ColorViewController.swift
 //  SmartyMarty
-//
+//  ColorViewController class, which is responsible for displaying a list of colors and playing sounds when the user selects a color.
 //  Created by Yukun Chen on 2023-04-17.
 //
 
@@ -9,6 +9,7 @@ import UIKit
 
 class ColorViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
     
+    // Define instances of Color
     let black : Color = .init()
     let brown : Color = .init()
     let green : Color = .init()
@@ -18,8 +19,10 @@ class ColorViewController: UIViewController,UITableViewDataSource, UITableViewDe
     let white : Color = .init()
     let yellow : Color = .init()
     
+    // Define an array of Color objects
     var colorset:[Color] = []
     
+    // Set the properties of each Color object
     func getColor(){
         black.initWithData(color: "Black")
         brown.initWithData(color: "Brown")
@@ -33,6 +36,7 @@ class ColorViewController: UIViewController,UITableViewDataSource, UITableViewDe
         colorset =  [black,brown,green,pink,purple,red,white, yellow]
     }
     
+    // Called after the controller's view is loaded into memory
     override func viewDidLoad() {
         getColor()
         super.viewDidLoad()
@@ -40,33 +44,35 @@ class ColorViewController: UIViewController,UITableViewDataSource, UITableViewDe
         // Do any additional setup after loading the view.
     }
     
+    // Return the number of rows in the table
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return colorset.count
     }
 
-    // define table method for cell thickness
+    // Set the height for each row in the table
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100;
     }
 
-    // define table method for how each cell should look
+    // Set the height for each row in the table
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
+        // Set the background color of the table
         tableView.backgroundColor = UIColor(patternImage: UIImage(named: "Kids_App-01.png")!)
         
+        // Set the background color of the table
         let tableCell : SiteCell = tableView.dequeueReusableCell(withIdentifier: "cell") as? SiteCell ?? SiteCell(style:UITableViewCell.CellStyle.default, reuseIdentifier: "cell")
 
-        //populate the cell
+        // Set the background color of the table
         let rowNum = indexPath.row
         let alph = "\(colorset[rowNum].color ?? "")"
-       // let imgName = UIImage(named:imageData[rowNum])
 
         tableCell.primaryLabel.text =  alph
 
         tableCell.myImageView.image = UIImage(named: alph + ".png")
         tableCell.accessoryType = .disclosureIndicator
 
-        //return the cell
+        // Return the cell
         return tableCell
 
     }
@@ -86,23 +92,9 @@ class ColorViewController: UIViewController,UITableViewDataSource, UITableViewDe
         let alertController = UIAlertController(title: "Playing sound for ", message: a, preferredStyle: .alert)
         
         let cancelAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-        
-        //SoundManager.shared.playSound(forResource: a, ofType: "mp3")
-        
+                
         alertController.addAction(cancelAction)
         present(alertController, animated: true)
     }
-
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

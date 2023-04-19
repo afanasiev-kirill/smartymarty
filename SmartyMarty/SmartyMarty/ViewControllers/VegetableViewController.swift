@@ -3,7 +3,11 @@
 //  SmartyMarty
 //
 //  Created by Ziang Wang on 2023-04-17.
-//
+// This class manages the vegetable view, including displaying vegetables in a table view, playing sound for selected vegetable and handling navigation to other views.
+// It also defines a custom cell for the table view and populates it with data from Vegetable objects.
+// The Vegetable objects are initialized with data and stored in an array, which is used to populate the table view.
+// When a cell is selected, the corresponding vegetable's name is used to play a sound and display an alert message.
+// This class conforms to UITableViewDataSource and UITableViewDelegate protocols to handle table view data source and delegate methods.
 
 import UIKit
 
@@ -21,6 +25,7 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
     
     var al:[Vegetable] = []
 
+    // Initialize Vegetable objects with data and store them in an array
     func getVege(){
         artichoke.initWithData(vege: "Artichoke")
         carrot.initWithData(vege: "Carrot")
@@ -32,6 +37,8 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
         
         al =  [artichoke,carrot,eggplant,greenbeans,lettuce,pepper,spinach]
     }
+    
+    // Load the view and initialize Vegetable objects
     override func viewDidLoad() {
         getVege()
         super.viewDidLoad()
@@ -39,11 +46,12 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
         // Do any additional setup after loading the view.
     }
     
+    // Returns the number of rows in the table view
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return al.count
     }
 
-    // define table method for cell thickness
+    // Returns the height of each cell in the table view
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100;
     }
@@ -85,9 +93,7 @@ class VegetableViewController: UIViewController,UITableViewDataSource, UITableVi
         let alertController = UIAlertController(title: "Playing sound for ", message: a, preferredStyle: .alert)
         
         let cancelAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
-        
-        //SoundManager.shared.playSound(forResource: a, ofType: "mp3")
-        
+                
         alertController.addAction(cancelAction)
         present(alertController, animated: true)
     }

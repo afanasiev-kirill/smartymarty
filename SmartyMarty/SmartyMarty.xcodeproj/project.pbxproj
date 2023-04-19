@@ -29,6 +29,21 @@
 		B353AB1429E4351A0069982A /* AlphabetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB1329E4351A0069982A /* AlphabetController.swift */; };
 		B353AB1629E4371B0069982A /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB1529E4371B0069982A /* SiteCell.swift */; };
 		B353AB1A29E43C230069982A /* Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B353AB1929E43C230069982A /* Alphabet.swift */; };
+		B37356EC29F087710094DA25 /* Star.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356DD29F087700094DA25 /* Star.mp3 */; };
+		B37356ED29F087710094DA25 /* Circle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356DE29F087700094DA25 /* Circle.mp3 */; };
+		B37356EE29F087710094DA25 /* Brown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356DF29F087700094DA25 /* Brown.mp3 */; };
+		B37356EF29F087710094DA25 /* White.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E029F087700094DA25 /* White.mp3 */; };
+		B37356F029F087710094DA25 /* Triangle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E129F087700094DA25 /* Triangle.mp3 */; };
+		B37356F129F087710094DA25 /* Black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E229F087700094DA25 /* Black.mp3 */; };
+		B37356F229F087710094DA25 /* Oval.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E329F087700094DA25 /* Oval.mp3 */; };
+		B37356F329F087710094DA25 /* Square.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E429F087700094DA25 /* Square.mp3 */; };
+		B37356F429F087710094DA25 /* Rectangle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E529F087700094DA25 /* Rectangle.mp3 */; };
+		B37356F529F087710094DA25 /* Pink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E629F087710094DA25 /* Pink.mp3 */; };
+		B37356F629F087710094DA25 /* Purple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E729F087710094DA25 /* Purple.mp3 */; };
+		B37356F729F087710094DA25 /* Diamond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E829F087710094DA25 /* Diamond.mp3 */; };
+		B37356F829F087710094DA25 /* Red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356E929F087710094DA25 /* Red.mp3 */; };
+		B37356F929F087710094DA25 /* Green.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356EA29F087710094DA25 /* Green.mp3 */; };
+		B37356FA29F087710094DA25 /* Yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37356EB29F087710094DA25 /* Yellow.mp3 */; };
 		B37F298029E1C2B2005A4D34 /* Kids_App_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */; };
 		B37F298129E1C2B2005A4D34 /* Kids_App_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */; };
 		B37F298229E1C2B2005A4D34 /* Kids_App_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B37F297D29E1C2B2005A4D34 /* Kids_App_3.png */; };
@@ -157,6 +172,21 @@
 		B353AB1329E4351A0069982A /* AlphabetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetController.swift; sourceTree = "<group>"; };
 		B353AB1529E4371B0069982A /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
 		B353AB1929E43C230069982A /* Alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabet.swift; sourceTree = "<group>"; };
+		B37356DD29F087700094DA25 /* Star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Star.mp3; sourceTree = "<group>"; };
+		B37356DE29F087700094DA25 /* Circle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Circle.mp3; sourceTree = "<group>"; };
+		B37356DF29F087700094DA25 /* Brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Brown.mp3; sourceTree = "<group>"; };
+		B37356E029F087700094DA25 /* White.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = White.mp3; sourceTree = "<group>"; };
+		B37356E129F087700094DA25 /* Triangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Triangle.mp3; sourceTree = "<group>"; };
+		B37356E229F087700094DA25 /* Black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Black.mp3; sourceTree = "<group>"; };
+		B37356E329F087700094DA25 /* Oval.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Oval.mp3; sourceTree = "<group>"; };
+		B37356E429F087700094DA25 /* Square.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Square.mp3; sourceTree = "<group>"; };
+		B37356E529F087700094DA25 /* Rectangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rectangle.mp3; sourceTree = "<group>"; };
+		B37356E629F087710094DA25 /* Pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pink.mp3; sourceTree = "<group>"; };
+		B37356E729F087710094DA25 /* Purple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Purple.mp3; sourceTree = "<group>"; };
+		B37356E829F087710094DA25 /* Diamond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Diamond.mp3; sourceTree = "<group>"; };
+		B37356E929F087710094DA25 /* Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red.mp3; sourceTree = "<group>"; };
+		B37356EA29F087710094DA25 /* Green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Green.mp3; sourceTree = "<group>"; };
+		B37356EB29F087710094DA25 /* Yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yellow.mp3; sourceTree = "<group>"; };
 		B37F297B29E1C2B2005A4D34 /* Kids_App_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_2.png; sourceTree = "<group>"; };
 		B37F297C29E1C2B2005A4D34 /* Kids_App_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_1.png; sourceTree = "<group>"; };
 		B37F297D29E1C2B2005A4D34 /* Kids_App_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kids_App_3.png; sourceTree = "<group>"; };
@@ -258,21 +288,6 @@
 		B393B9B529EE47E500FA2588 /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
 		B393B9B629EE47E500FA2588 /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Square.png; sourceTree = "<group>"; };
 		B393B9DA29EE581400FA2588 /* colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors.png; sourceTree = "<group>"; };
-		B393B9FA29EE608600FA2588 /* Oval.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Oval.mp3; sourceTree = "<group>"; };
-		B393B9FB29EE608600FA2588 /* Pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pink.mp3; sourceTree = "<group>"; };
-		B393B9FC29EE608600FA2588 /* Black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Black.mp3; sourceTree = "<group>"; };
-		B393B9FD29EE608600FA2588 /* Purple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Purple.mp3; sourceTree = "<group>"; };
-		B393B9FE29EE608600FA2588 /* Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Red.mp3; sourceTree = "<group>"; };
-		B393B9FF29EE608600FA2588 /* Triangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Triangle.mp3; sourceTree = "<group>"; };
-		B393BA0029EE608600FA2588 /* White.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = White.mp3; sourceTree = "<group>"; };
-		B393BA0129EE608700FA2588 /* Square.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Square.mp3; sourceTree = "<group>"; };
-		B393BA0229EE608700FA2588 /* Yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yellow.mp3; sourceTree = "<group>"; };
-		B393BA0329EE608700FA2588 /* Green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Green.mp3; sourceTree = "<group>"; };
-		B393BA0429EE608700FA2588 /* Diamond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Diamond.mp3; sourceTree = "<group>"; };
-		B393BA0529EE608700FA2588 /* Circle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Circle.mp3; sourceTree = "<group>"; };
-		B393BA0629EE608700FA2588 /* Brown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Brown.mp3; sourceTree = "<group>"; };
-		B393BA0729EE608700FA2588 /* Rectangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rectangle.mp3; sourceTree = "<group>"; };
-		B393BA0829EE608700FA2588 /* Star.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Star.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,21 +460,21 @@
 		B393B8B429ED770500FA2588 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				B393B9FC29EE608600FA2588 /* Black.mp3 */,
-				B393BA0329EE608700FA2588 /* Green.mp3 */,
-				B393BA0629EE608700FA2588 /* Brown.mp3 */,
-				B393BA0529EE608700FA2588 /* Circle.mp3 */,
-				B393BA0429EE608700FA2588 /* Diamond.mp3 */,
-				B393B9FA29EE608600FA2588 /* Oval.mp3 */,
-				B393B9FB29EE608600FA2588 /* Pink.mp3 */,
-				B393B9FD29EE608600FA2588 /* Purple.mp3 */,
-				B393BA0729EE608700FA2588 /* Rectangle.mp3 */,
-				B393B9FE29EE608600FA2588 /* Red.mp3 */,
-				B393BA0129EE608700FA2588 /* Square.mp3 */,
-				B393BA0829EE608700FA2588 /* Star.mp3 */,
-				B393B9FF29EE608600FA2588 /* Triangle.mp3 */,
-				B393BA0029EE608600FA2588 /* White.mp3 */,
-				B393BA0229EE608700FA2588 /* Yellow.mp3 */,
+				B37356E229F087700094DA25 /* Black.mp3 */,
+				B37356DF29F087700094DA25 /* Brown.mp3 */,
+				B37356DE29F087700094DA25 /* Circle.mp3 */,
+				B37356E829F087710094DA25 /* Diamond.mp3 */,
+				B37356EA29F087710094DA25 /* Green.mp3 */,
+				B37356E329F087700094DA25 /* Oval.mp3 */,
+				B37356E629F087710094DA25 /* Pink.mp3 */,
+				B37356E729F087710094DA25 /* Purple.mp3 */,
+				B37356E529F087700094DA25 /* Rectangle.mp3 */,
+				B37356E929F087710094DA25 /* Red.mp3 */,
+				B37356E429F087700094DA25 /* Square.mp3 */,
+				B37356DD29F087700094DA25 /* Star.mp3 */,
+				B37356E129F087700094DA25 /* Triangle.mp3 */,
+				B37356E029F087700094DA25 /* White.mp3 */,
+				B37356EB29F087710094DA25 /* Yellow.mp3 */,
 				B393B95329EDEEAC00FA2588 /* Artichoke.mp3 */,
 				B393B94E29EDEEAC00FA2588 /* Carrot.mp3 */,
 				B393B94F29EDEEAC00FA2588 /* Eggplant.mp3 */,
@@ -557,6 +572,7 @@
 				B393B94229EDDBBA00FA2588 /* A a.png in Resources */,
 				B393B94029EDDBBA00FA2588 /* N n.png in Resources */,
 				B393B94629EDDBBA00FA2588 /* H h.png in Resources */,
+				B37356EE29F087710094DA25 /* Brown.mp3 in Resources */,
 				B393B93B29EDDBBA00FA2588 /* J j.png in Resources */,
 				AC25032A29F01A29008758A2 /* defaultBtn.png in Resources */,
 				B393B93929EDDBBA00FA2588 /* X x.png in Resources */,
@@ -573,9 +589,11 @@
 				B37F298029E1C2B2005A4D34 /* Kids_App_2.png in Resources */,
 				B37F298129E1C2B2005A4D34 /* Kids_App_1.png in Resources */,
 				B393B93529EDDBBA00FA2588 /* F f.png in Resources */,
+				B37356F429F087710094DA25 /* Rectangle.mp3 in Resources */,
 				B393B93F29EDDBBA00FA2588 /* I i.png in Resources */,
 				B393B90129ED775A00FA2588 /* P p.mp3 in Resources */,
 				B393B95829EDEEAC00FA2588 /* Greenbeans.mp3 in Resources */,
+				B37356ED29F087710094DA25 /* Circle.mp3 in Resources */,
 				B393B96529EDEF0400FA2588 /* Pepper.png in Resources */,
 				B393B93E29EDDBBA00FA2588 /* Q q.png in Resources */,
 				B393B95929EDEEAC00FA2588 /* Spinach.mp3 in Resources */,
@@ -584,19 +602,23 @@
 				B393B90729ED775A00FA2588 /* B b.mp3 in Resources */,
 				B393B9B829EE47E500FA2588 /* Rectangle.png in Resources */,
 				B37F298429E1C2B2005A4D34 /* Kids_App-01.png in Resources */,
+				B37356F729F087710094DA25 /* Diamond.mp3 in Resources */,
 				B353AB1229E434230069982A /* Alphabet.jpeg in Resources */,
 				B393B96929EDEF0400FA2588 /* Carrot.png in Resources */,
 				B393B94B29EDDBBA00FA2588 /* L l.png in Resources */,
 				B37F298C29E24A72005A4D34 /* facebook.png in Resources */,
+				B37356F129F087710094DA25 /* Black.mp3 in Resources */,
 				B393B99B29EE125D00FA2588 /* Purple.png in Resources */,
 				B393B95A29EDEEAC00FA2588 /* Artichoke.mp3 in Resources */,
 				B393B99929EE125D00FA2588 /* Brown.png in Resources */,
+				B37356F329F087710094DA25 /* Square.mp3 in Resources */,
 				B393B99729EE125D00FA2588 /* White.png in Resources */,
 				B393B90429ED775A00FA2588 /* F f.mp3 in Resources */,
 				B393B95529EDEEAC00FA2588 /* Carrot.mp3 in Resources */,
 				B393B90C29ED775A00FA2588 /* O o.mp3 in Resources */,
 				AC25032929F01A29008758A2 /* wrongBtn.png in Resources */,
 				B393B90029ED775A00FA2588 /* X x.mp3 in Resources */,
+				B37356F229F087710094DA25 /* Oval.mp3 in Resources */,
 				B393B91429ED775A00FA2588 /* G g.mp3 in Resources */,
 				B393B8E729ED774200FA2588 /* A a.mp3 in Resources */,
 				B393B93829EDDBBA00FA2588 /* P p.png in Resources */,
@@ -614,6 +636,7 @@
 				B393B93D29EDDBBA00FA2588 /* B b.png in Resources */,
 				B393B93A29EDDBBA00FA2588 /* V v.png in Resources */,
 				B393B94929EDDBBA00FA2588 /* E e.png in Resources */,
+				B37356F929F087710094DA25 /* Green.mp3 in Resources */,
 				B393B9BA29EE47E500FA2588 /* Oval.png in Resources */,
 				B393B8FF29ED775A00FA2588 /* R r.mp3 in Resources */,
 				B37F298229E1C2B2005A4D34 /* Kids_App_3.png in Resources */,
@@ -626,6 +649,7 @@
 				B393B90929ED775A00FA2588 /* W w.mp3 in Resources */,
 				B393B94D29EDEE5500FA2588 /* E_e.mp3 in Resources */,
 				B393B91329ED775A00FA2588 /* Y y.mp3 in Resources */,
+				B37356EC29F087710094DA25 /* Star.mp3 in Resources */,
 				B393B90E29ED775A00FA2588 /* C c.mp3 in Resources */,
 				B393B94329EDDBBA00FA2588 /* K k.png in Resources */,
 				B393B9BD29EE47E500FA2588 /* Square.png in Resources */,
@@ -633,19 +657,25 @@
 				B393B96D29EDF05600FA2588 /* vege.jpg in Resources */,
 				B393B99529EE125D00FA2588 /* Red.png in Resources */,
 				B393B91029ED775A00FA2588 /* V v.mp3 in Resources */,
+				B37356F629F087710094DA25 /* Purple.mp3 in Resources */,
 				B393B94529EDDBBA00FA2588 /* S s.png in Resources */,
 				B393B97929EE041200FA2588 /* Color.png in Resources */,
 				B393B91529ED775A00FA2588 /* H h.mp3 in Resources */,
 				B393B94729EDDBBA00FA2588 /* R r.png in Resources */,
 				B393B96729EDEF0400FA2588 /* Eggplant.png in Resources */,
 				B393B93729EDDBBA00FA2588 /* W w.png in Resources */,
+				B37356F029F087710094DA25 /* Triangle.mp3 in Resources */,
 				B393B96329EDEF0400FA2588 /* Greenbeans.png in Resources */,
+				B37356F829F087710094DA25 /* Red.mp3 in Resources */,
+				B37356FA29F087710094DA25 /* Yellow.mp3 in Resources */,
+				B37356F529F087710094DA25 /* Pink.mp3 in Resources */,
 				B393B9DB29EE581400FA2588 /* colors.png in Resources */,
 				B393B90529ED775A00FA2588 /* N n.mp3 in Resources */,
 				B393B94429EDDBBA00FA2588 /* U u.png in Resources */,
 				B393B95729EDEEAC00FA2588 /* Pepper.mp3 in Resources */,
 				B393B90829ED775A00FA2588 /* T t.mp3 in Resources */,
 				B393B90B29ED775A00FA2588 /* D d.mp3 in Resources */,
+				B37356EF29F087710094DA25 /* White.mp3 in Resources */,
 				B393B95B29EDEEAC00FA2588 /* Lettuce.mp3 in Resources */,
 				B393B96829EDEF0400FA2588 /* Artichoke.png in Resources */,
 				B393B95629EDEEAC00FA2588 /* Eggplant.mp3 in Resources */,

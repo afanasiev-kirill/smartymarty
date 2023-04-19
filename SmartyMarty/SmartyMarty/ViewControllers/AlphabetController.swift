@@ -3,12 +3,15 @@
 //  SmartyMarty
 //
 //  Created by Ziang Wang on 2023-04-10.
-//
+//  A controller for the alphabet table view.
+
+
 
 import UIKit
 
 class AlphabetController: UIViewController,UITableViewDataSource, UITableViewDelegate{
     
+    // Declare 26 Alphabet objects to populate the table view.
     let a : Alphabet = .init()
     let b : Alphabet = .init()
     let c : Alphabet = .init()
@@ -36,9 +39,10 @@ class AlphabetController: UIViewController,UITableViewDataSource, UITableViewDel
     let y : Alphabet = .init()
     let z : Alphabet = .init()
    
-    
+    // Array to store all Alphabet objects.
     var al:[Alphabet] = []
 
+    // Method to initialize all Alphabet objects with data and populate them in the array.
     func getAlph(){
         a.initWithData(alph: "A a")
         b.initWithData(alph: "B b")
@@ -75,6 +79,7 @@ class AlphabetController: UIViewController,UITableViewDataSource, UITableViewDel
         // Do any additional setup after loading the view.
     }
     
+    // Method to determine the number of rows in the table view.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return al.count
     }
@@ -94,7 +99,7 @@ class AlphabetController: UIViewController,UITableViewDataSource, UITableViewDel
         //populate the cell
         let rowNum = indexPath.row
         let alph = "\(al[rowNum].alph ?? "")"
-       // let imgName = UIImage(named:imageData[rowNum])
+       
 
         tableCell.primaryLabel.text =  alph
 
@@ -122,7 +127,6 @@ class AlphabetController: UIViewController,UITableViewDataSource, UITableViewDel
         
         let cancelAction = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
         
-        //SoundManager.shared.playSound(forResource: a, ofType: "mp3")
         
         alertController.addAction(cancelAction)
         present(alertController, animated: true)
